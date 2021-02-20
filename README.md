@@ -4,6 +4,8 @@ This is a simple project that let's everyone know about what's happing aroud the
 
 By sending the top tending news from the most popular media outlets around the world, directly to user's WhatsApp
 
+![](https://github.com/manisaiprasad/friendly-memory/blob/master/example.jpg)
+
 This project uses [twilio](https://www.twilio.com/console/sms/whatsapp/sandbox) for sending whatapp messages
 
 It will Scrape the most recent articles from any news-site and stores in ``` scraped_articles.json ``` for furter use
