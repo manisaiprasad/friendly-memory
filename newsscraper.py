@@ -14,8 +14,8 @@ from newspaper import Article
 data = {}
 data["newspapers"] = {}
 
-account_sid = 'ACfcab3851f1ed9b3a4d9efcca60763a19'
-auth_token = '8e146ecb306d296253120592ee96e75b'
+account_sid = 'Your Sid'
+auth_token = 'Your AUTH_TOKEN'
 client = Client(account_sid, auth_token)
 # this is the Twilio sandbox testing number
 from_whatsapp_number = 'whatsapp:+14155238886'
@@ -179,7 +179,7 @@ def main():
     if len(args) < 2:
         sys.exit("Usage: newsscraper.py NewsPapers.json")
 
-    limit = 1
+    limit = 2
     if "--limit" in args:
         idx = args.index("--limit")
         limit = int(args[idx + 1])
