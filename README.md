@@ -56,3 +56,6 @@ Add RSS link or news outlet link to ```NewsPapers.json``` like this configuratio
   }
 }
 ```
+## Contributions
+This repository is open to any kind of contributions. Any kind of suggestions, enhancements, bug reports are always welcome.
+
